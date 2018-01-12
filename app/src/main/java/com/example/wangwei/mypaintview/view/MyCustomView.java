@@ -36,6 +36,7 @@ public class MyCustomView extends View {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        //这里处理测量的数据
         setMeasuredDimension(200,200);
     }
 
